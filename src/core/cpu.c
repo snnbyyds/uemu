@@ -33,7 +33,7 @@
 #include "device/clint.h"
 #include "device/goldfish_battery.h"
 #include "device/goldfish_rtc.h"
-#include "device/uart16550.h"
+#include "device/uart8250.h"
 #include "ui/ui.h"
 #include "utils/alarm.h"
 #include "utils/logger.h"

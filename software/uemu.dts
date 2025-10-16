@@ -109,9 +109,10 @@
         uart@10000000 {
             interrupts = <0xa>;
             interrupt-parent = <&plic0>;
-            clock-frequency = <0x384000>;
+            clock-frequency = <5000000>;
+            no-loopback-test;
             reg = <0x0 0x10000000 0x0 0x100>;
-            compatible = "ns16550a";
+            compatible = "ns16550";
         };
 
         rtc@10000100 {

@@ -33,7 +33,7 @@
 #include "device/plic.h"
 #include "device/sifive_test.h"
 #include "device/simple_fb.h"
-#include "device/uart16550.h"
+#include "device/uart8250.h"
 #include "device/virtio.h"
 #include "utils/logger.h"
 
