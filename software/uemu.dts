@@ -23,8 +23,8 @@
     model = "uemu-virt";
 
     chosen {
-        bootargs = "root=/dev/vda rw console=tty0 earlycon=sbi";
-        stdout-path = "/soc/uart@10000000";
+        bootargs = "root=/dev/vda rw earlycon=sbi console=tty1";
+        stdout-path = &simplefb;
     };
 
     cpus {
